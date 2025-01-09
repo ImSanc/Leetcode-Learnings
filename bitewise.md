@@ -6,11 +6,17 @@
 - 1 0 | 0
 - 1 1 | 1
 
+- Can be used for identifying power of 2 : 
+- As power of 2 will have only 1 set bit 
+- if it is a power then doing n & (n-1) will give zero
+
 ### OR gate
 - 0 0 | 0
 - 0 1 | 1
 - 1 0 | 1
 - 1 1 | 1
+
+- Doing OR gate of two numbers will be a|b >=a if (a is greater than b)
 
 ### NOT gate (P.S representation of negative number )
 - 0 | 1
@@ -50,7 +56,7 @@ It makes sures if the number is positive it remains positive and if negative so 
 - eg : 6>>1 :  000...110 , now right shift 000...011
 - eg -6>>1 : 000..110 afters 1's compliment is 111...001 , add one now 111...010
 - 111...010 is -6 now -6>>1 is 111...101 which on conversion is -3 (as 111..101 represents negative number)
-- 
+
 #### Note: shifting left side gives value X % 2^y (here X is the value we are shifting and Y is the times we are shifting ) As long as there is no over flow
 eg: 6>>1 = 3 | (6%2^1)=3 
 
