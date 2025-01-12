@@ -1,4 +1,4 @@
-# Bit wise gates
+# Bit wise gates  
 
 ### And gate
 - 0 0 | 0
