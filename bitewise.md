@@ -16,7 +16,7 @@
 - 1 0 | 1
 - 1 1 | 1
 
-- Doing OR gate of two numbers will be a|b >=a if (a is greater than b)
+- Doing OR gate of two numbers will be a|b >=a if (a is greater than b) this also helps in retaining the state of previous number and adds the set bits of current number
 
 ### NOT gate (P.S representation of negative number )
 - 0 | 1
